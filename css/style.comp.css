@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'League Gothic', sans-serif; }
+
+.container {
+  display: flex;
+  background-color: #101418;
+  color: white; }
+
+.main {
+  background-color: #181c20; }
+
+.navigation {
+  background-color: #181c20; }

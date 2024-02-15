@@ -1,0 +1,22 @@
+{
+  "name": "notmyportfolio",
+  "version": "1.0.0",
+  "description": "All about me.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarWeb404/Portfolio.git"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KumarWeb404/Portfolio/issues"
+  },
+  "homepage": "https://github.com/KumarWeb404/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
