@@ -22,8 +22,11 @@ p {
   font-size: 1.3rem; }
 
 .heading-3 {
-  font-size: 4.2rem;
-  font-weight: 400; }
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 3rem;
+  font-weight: 700; }
+  .heading-3 span {
+    font-family: 'League Gothic', sans-serif; }
 
 .container {
   position: relative;
@@ -43,11 +46,11 @@ p {
   margin: 1.5rem;
   padding: 2.5rem; }
   .navigation__logo {
-    margin-bottom: 6.3rem; }
+    margin-bottom: 4rem; }
   .navigation__list {
     list-style: none; }
     .navigation__list--link {
-      font-size: 3.1rem;
+      font-size: 2.9rem;
       text-transform: uppercase;
       transition: color 0.4s ease; }
       .navigation__list--link:link, .navigation__list--link:visited {

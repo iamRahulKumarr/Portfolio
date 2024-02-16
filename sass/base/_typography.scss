@@ -9,6 +9,11 @@ p {
   font-size: 1.3rem;
 }
 .heading-3 {
-  font-size: 4.2rem;
-  font-weight: 400;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+
+  span {
+    font-family: 'League Gothic', sans-serif;
+  }
 }
