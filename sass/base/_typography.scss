@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   font-family: 'League Gothic', sans-serif;
+}
+p {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1.3rem;
+}
+.heading-3 {
+  font-size: 4.2rem;
+  font-weight: 400;
 }
