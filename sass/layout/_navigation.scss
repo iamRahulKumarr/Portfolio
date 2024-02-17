@@ -1,10 +1,8 @@
 .navigation {
   position: relative;
-  background-color: $color-secondary;
   width: 18%;
-  border-radius: 1.5rem;
-  margin: 1.5rem;
-  padding: 2.5rem;
+  margin: 1.5rem 0.75rem;
+  @include card();
 
   &__logo {
     margin-bottom: 4rem;
