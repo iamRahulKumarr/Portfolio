@@ -9,6 +9,13 @@ p {
   font-size: 1.3rem;
   color: $color-before-hover;
 }
+
+.heading-1 {
+  font-size: 5.2rem;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+}
 .heading-3 {
   font-family: 'Inter Tight', sans-serif;
   font-size: 3rem;
@@ -17,4 +24,9 @@ p {
   span {
     font-family: 'League Gothic', sans-serif;
   }
+}
+.heading-4 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }

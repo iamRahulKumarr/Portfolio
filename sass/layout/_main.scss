@@ -2,15 +2,38 @@
   width: 88%;
   margin: 1.5rem 0.75rem;
 
-  &__title {
+  &__header {
     @include card();
     position: relative;
     min-height: 40vh;
 
-    h1,
-    p {
+    &--content-title {
       position: absolute;
       bottom: 2.5rem;
+
+      h1 {
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+
+  &__about-stack {
+    display: flex;
+    margin-top: 4.3rem;
+  }
+  &__about {
+    width: 57%;
+  }
+  &__stack {
+    width: 43%;
+    &--list {
+      list-style: none;
+      margin-top: 1.6rem;
+    }
+    &--item {
+      @include card();
+      padding: 2rem;
+      margin-bottom: 1.5rem;
     }
   }
 }
